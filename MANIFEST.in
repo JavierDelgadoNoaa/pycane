@@ -1,0 +1,3 @@
+global-include *.py
+#recursive-include conf *
+recursive-include etc *sh
