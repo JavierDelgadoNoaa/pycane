@@ -14,13 +14,13 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 from nwpy.viz.map import bling
-from pycane.postproc.viz.map import track_plotter
+from pycane.postproc.viz.tcv import track_plotter
 from pycane.postproc.tracker import utils as trkutils 
 
 if __name__ == '__main__':
 
-    hnr1_nolan_diapost = '../../../sample_datasets/hnr1_nolan_fcst_track.txt'
-    hnr1_gfdltrk = '../../../sample_datasets/hnr1_gfdltrk_atcf.txt'
+    hnr1_nolan_diapost = './datasets/hnr1_nolan_fcst_track.txt'
+    hnr1_gfdltrk = './datasets/hnr1_gfdltrk_atcf.txt'
 
     # how frequently to mark the line showing the track
     TIME_MARKER_INTERVAL = 24 # daily

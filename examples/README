@@ -1,0 +1,2 @@
+If nwpy/pycane are not installed system-wide, set PYTHONPATH accordingly.
+See $PYCANE_DIST/etc/env.sh
